@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson</title>
+
+    <style>
+        body {
+            background-color: #1e1e2f; 
+            color: #fff; 
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #f5a623; 
+        }
+
+        header img {
+            max-width: 100%;
+            height: 200px; 
+        }
+
+        header {
+            text-align: center;
+        }
+
+        section div a {
+            background-color: #4a90e2; 
+            display: block;
+            margin: 20px auto;
+            padding: 15px 20px;
+            width: 80%; /* Ajusta para telas pequenas */
+            max-width: 400px; /* Limita o tamanho em telas grandes */
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        section div a:hover {
+            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+            background-color: #f5a623; /* Altera a cor no hover */
+        }
+
+        section div a img {
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: #888; 
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        /*  telas menores */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem; /* Título menor em dispositivos móveis */
+            }
+
+            section div a {
+                width: 90%; /* Botões mais largos em telas pequenas */
+                font-size: 1rem; /* Tamanho da fonte para telas pequenas */
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="./icones/logo.png" alt="logo">
+    </header>
+
+    <h1>Anderson Pinheiro</h1>
+
+    <section>
+        <div>
+            <a href="https://api.whatsapp.com/send/?phone=5521964681384&text&type=phone_number&app_absent=0" target="_blank">WhatsApp
+                <img src="./icones/icons8-whatsapp-48.png" alt="whatsapp">
+            </a>
+            <a href="https://www.linkedin.com/in/anderson-santos-32551829a/" target="_blank">LinKedin
+                <img src="./icones/icons8-linkedin-48.png" alt="linkedin">
+            </a>
+            <a href="https://github.com/AndiinPS" target="_blank">GitHub
+                <img src="./icones/icons8-github-64.png" alt="github">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 APS &reg; - Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+
+</html>
