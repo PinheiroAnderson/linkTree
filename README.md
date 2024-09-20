@@ -1,1 +1,2 @@
-[Clique aqui](https://pinheiroanderson.github.io/linkTree/)
+Olá, sou Anderson Pinheiro!
+Atuo como desenvolvedor web e estou focado em me tornar um programador fullstack. Tenho experiência em criar soluções em JavaScript e Python, e estou sempre aprimorando minhas habilidades em desenvolvimento front-end e back-end. Gosto de trabalhar em projetos que envolvam tecnologias modernas, desenvolvimento de interfaces interativas e experiências responsivas. Se quiser discutir sobre tecnologia, colaborar em projetos ou conferir meu trabalho, sinta-se à vontade para entrar em contato pelo link [Clique aqui](https://pinheiroanderson.github.io/linkTree/)
